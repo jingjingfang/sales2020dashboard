@@ -40,6 +40,9 @@ order by year asc; </code>
 join transactions on date.date=transactions.order_date
 group by market_code
 order by count(market_code) desc; </code>
+<br/>
+<br/>
+
 
 
 Data provided by https://github.com/codebasics/DataAnalysisProjects/blob/master/2_SalesInsightsTableau/README.md
