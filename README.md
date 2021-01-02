@@ -1,7 +1,7 @@
 # Sales2020
 
 
-<h2>Cleaning process<h2> 
+<h2>Cleaning process</h2> 
  
 
 <p>Filtered the data of the Sales Amount at least $1</p>
