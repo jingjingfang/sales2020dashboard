@@ -1,8 +1,12 @@
-# sales2020dashboard
+# Sales2020dashboard
 
 
-Cleaning process
+<h2>Cleaning process<h2>
+  
+  <ul>
 
-Filtered the Sales Amount at least $1
-Excluded the Markets Code of Mark099 & Mark097
-Created a Normalized Amount column and converted the US dollar to INR
+<li>Filtered the data of the Sales Amount at least $1</li>
+<li>Excluded the Markets Code of Mark099 & Mark097 </li>
+<li> Created a Normalized Amount column and converted US dollar to INR </li>
+
+</ul>
