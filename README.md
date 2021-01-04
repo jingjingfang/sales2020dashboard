@@ -1,13 +1,6 @@
 # Sales2020
 
 
-<h2>Cleaning process</h2> 
- 
-
-<p>Filtered the data of the Sales Amount at least $1</p>
-<p>Excluded the Markets Code of Mark099 & Mark097 </p>
-<p> Created a Normalized Amount column and converted US dollar to INR </p>
-
 <h2>Data analysis</h2>
 
 <h4>1.total number of unique customers </h4>
@@ -23,7 +16,7 @@
 <h4>4. the total transactions </h4>
 <code>select count(*) from transactions; </code>
  
- <h4>5. display the total sales between 2017 and 2020 in a descending order</h4>
+ <h4>5. display the total sales amount between 2017 and 2020 in a descending order</h4>
 <code>select format (sum(sales_amount), 0) as total_sales, year from date
 join transactions on date.date=transactions.order_date
 group by year
